@@ -12,6 +12,7 @@
 [![Physics](https://img.shields.io/badge/Physics-Rigid_Body_Engine-5a6b8c?style=for-the-badge)](#-물리-엔진-구조)
 [![Campaign](https://img.shields.io/badge/Campaign-30_Fortresses-a3312a?style=for-the-badge)](#%EF%B8%8F-30-성채-캠페인)
 [![Dependencies](https://img.shields.io/badge/Dependencies-0-2ea44f?style=for-the-badge)](#-실행-방법)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](./LICENSE)
 
 <br />
 
@@ -202,10 +203,17 @@ git clone https://github.com/jeiel85/royal-siege-engineer.git
 royal-siege-engineer/
 ├── index.html      # 게임 전체 (HTML + CSS + JS 단일 파일, 외부 의존성 0)
 ├── assets/         # README 스크린샷
+├── LICENSE         # MIT
 └── README.md
 ```
 
 `index.html` 내부 구성: 데이터·저장 → Web Audio 합성기 → 강체 물리 엔진 → 요새 생성기 → 공성전 로직 → 렌더러 → UI·입력·메인 루프
+
+---
+
+## 📄 라이선스 (License)
+
+[MIT License](./LICENSE) © 2026 박용은 (jeiel85) — 자유롭게 플레이·수정·재배포할 수 있으며, 재배포 시 저작권 및 라이선스 고지를 포함해 주세요.
 
 ---
 
